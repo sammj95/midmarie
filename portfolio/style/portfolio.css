@@ -1,0 +1,95 @@
+/*
+ * light blue - rgb(172, 208, 224)
+ */
+
+body {
+    font-family: palatino, georgia, garamond, sans-serif;
+    letter-spacing: .08em;
+    background-color: rgb(96, 94, 94);
+    background-image: linear-gradient(
+      to top, rgb(96, 94, 94) 15%, rgb(191, 189, 189));
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: white;
+    height: 4.5em;
+    -webkit-transform: skewY(-1.5deg);
+    -moz-transform: skewY(-1.5deg);
+    -ms-transform: skewY(-1.5deg);
+    -o-transform: skewY(-1.5deg);
+    transform: skewY(-1.5deg);
+    position: fixed;
+    z-index: 1;
+    top: -1px;
+    width: 100%;
+}
+
+.navbar {
+    -webkit-transform: skewY(1.5deg);
+    -moz-transform: skewY(1.5deg);
+    -ms-transform: skewY(1.5deg);
+    -o-transform: skewY(1.5deg);
+    transform: skewY(1.5deg);
+
+}
+
+.navbar.navbar-expand-md {
+    background-color: white;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-expand-md .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.my-link {
+    color: #1d2a99;
+}
+
+.my-link:hover {
+    text-decoration: underline;
+}
+
+#name {
+    font-size: 2.5em;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+/* about */
+.about-background {
+    margin: -5em 0 -1.5em 0;
+    background-image: url("img/bg_darkblue.jpg");
+}
+#about-row {
+    padding: 10em 0 3em 0;
+    margin: 2em 2em 0 2em;
+}
+#profile_pic_div {
+    background: rgba(0, 0, 0, 0);
+}
+#profile_pic_img {
+    height: 100%;
+}
+
+/* work */
+.work-background {
+    background-color: gray;
+    padding: 2em 0 2em 0;
+}
+#ejp_logo {
+    width: 100%;
+}
+
+.contact-background {
+    background-color: gray;
+    padding: .5em;
+    margin: 2em 0 2em 0;
+}
